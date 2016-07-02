@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导航斜切</title>
+	<style>
+		ul, li{
+			list-style: none;
+			margin:0;
+			padding:0;
+		}
+		.nav{
+			width:900px;
+			height: 40px;
+			font-size: 16px;
+			/*background: #000;*/
+			line-height: 40px;
+			margin:0 auto;
+		}
+		.nav ul{
+			width: 100%;
+			height: 100%;
+			display: block;
+			transform:skewX(45deg);
+			background: red;
+		}
+		.nav li{
+			width: 150px;
+			height: 100%;
+			color:#fff;
+			text-align: center;
+			float: left;
+			display: block;
+			transform:skewX(-45deg);
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li>首页</li>
+			<li>公司简介</li>
+			<li>产品介绍</li>
+			<li>新闻动态</li>
+			<li>关于我们</li>
+		</ul>
+	</div>
+</body>
+</html>
