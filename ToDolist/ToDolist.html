@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>本地存储</title>
+	<link rel="stylesheet" href="ToDolist.css">
+</head>
+<body>
+	<header>
+		<section>
+		<div  id="form">
+			<label for="">ToDoList</label>
+			<input type="text" id="title" placeholder="添加事项"  autocomplete="off">
+		</div>
+	</section>
+	</header>
+	<section>
+		<h2>
+			正在进行
+			<span id="todocount">1</span>
+		</h2>
+		<ul id="todolist" class="demo-box">
+			<li>
+				<input type="checkbox" onchange="">
+				<p>明天是新的一天</p>
+				<a href="">×</a>
+			</li>
+		</ul>
+		<h2>
+			已经完成
+			<span id="donecount">1</span>
+		</h2>
+		<ul id="donelist">
+			<li draggable='true'>
+				<input type="checkbox" onchange="">
+				<p>明天是新的一天</p>
+				<a href="">×</a>
+			</li>
+		</ul>
+	</section>
+	<footer></footer>
+	<script src="ToDolist2.js"></script>
+</body>
+</html>
