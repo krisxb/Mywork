@@ -1,0 +1,587 @@
+body{
+	/*width:40rem;*/
+	height: auto;
+	color:#666;
+	position: relative;
+	margin:0;
+}
+body{
+	font-family: Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,sans-self;
+    background: #f4f4f4;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size: 100%;
+	outline: 0;
+	vertical-align: baseline;
+}
+.down-box{
+	width: 100%;
+	height: 4.2rem;
+	position: relative;
+	background:#474747;
+}
+.close-btn{
+	text-align: center;
+	width:3.7rem;
+}
+.close-btn, .downtext{
+	float: left;
+	height: 4.2rem;
+	line-height: 4.2rem;
+}
+.close-btn img{
+	height: 1.3rem;
+	overflow: hidden;
+	width:1.3rem;
+}
+.downtext{
+	width:80%;
+	display: block;
+	overflow: hidden;
+}
+.downtext a{
+	color:#666;
+	text-decoration: none;
+}
+.downtext span{
+	float: left;
+}
+.dlogo{
+	height: 4.2rem;
+	line-height: 4.2rem;
+}
+.downtext img{
+	height:3.5rem;
+	margin-top: .4rem;
+	overflow: hidden;
+	width: 3.5rem;
+}
+.downtext .dt{
+	color:#fff;
+	margin:.5rem 0 0 0.8rem;
+}
+.downtext span{
+	float: left;
+}
+.downtext em{
+	display: block;
+	height: auto;
+	line-height: normal;
+	font-style: normal;
+}
+.dname{
+	font-size: 1.4rem;
+}
+.dtclient{
+	font-size: 1.2rem;
+}
+/*banner  Begin*/
+.mod-slider{
+	background: #fff;
+	position: relative;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0px;
+	line-height: 0px;
+	clear: both;
+}
+.mod-slider .slider-box{
+	margin:0 auto;
+	max-width:64.0rem;
+	overflow: hidden;
+	/*position: relative;*/
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	color:#666;
+	text-decoration: none;
+}
+.mod-slider .slider-box{
+	height:auto;
+}
+.mod-slider .slider-list{
+	/*position: absolute;*/
+	top:0;
+}
+.mod-slider li{
+	float: left;
+}
+.mod-slider li a{
+	display: block;
+}
+.mod-slider li img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+/*banner  End*/
+/*nav begin*/
+.qlink{
+	background: #fff;
+	border-bottom: .1rem solid #eaeaea;
+	overflow: hidden;
+	padding: 1.5rem 0;
+}
+.qlink a{
+	color:#666;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 20%;
+	float:left;
+}
+.qlink a img{
+	border-radius: 3.0rem;
+	display: block;
+	height: 5.0rem;
+	margin:0 auto;
+	width: 5.0rem;
+}
+.qlink a span{
+	display: block;
+	font-size: 1.5rem;
+	margin-top: .7rem;
+}
+/*nav End */
+/*news begin*/
+.first-news{
+	background: #fff;
+	padding:1.2rem 1.5rem;
+}
+.first-news .firsticon{
+	border-right:.1rem solid #e1e1e1;
+	float: left;
+	font-size: 1.2rem;
+	height: 1.6rem;
+	padding-right: .5rem;
+}
+.first-news .firsticon img{
+	font-size: 1.2rem;
+	height: 1.6rem;
+	overflow: hidden;
+	width:6.3rem;
+}
+.scrolltext{
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+}
+.first-news .first{
+	color:#444;
+	font-size: 1.1rem;
+	line-height: 16px;
+	overflow: hidden;
+}
+.first-news .first a{
+	display: block;
+	font-size: 1.3rem;
+	height: 16px;
+	line-height: 16px;
+}
+.first-news .first .first-mark{
+	color:#f66;
+	float: left;
+	font-style: normal;
+	padding:0 .5rem;
+}
+.first-news .first a li{
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+em,i{
+	font-style: normal;
+}
+/*news end*/
+/*buy begin*/
+.buybox{
+	background: #fff;
+	margin-top: 1.0rem;
+}
+.buy-menu{
+	border-bottom:.1rem solid #eaeaea;
+	clear: both;
+	height: 3.8rem;
+	line-height: 3.8rem;
+	padding:0 1.5rem;
+	position: relative;
+}
+.buyred{
+	color: #f55;
+	display: inline-block;
+	font-size: 1.5rem;
+}
+.index-countdown{
+	color:#222;
+	display: inline-block;
+	font-size: 1.2rem;
+	margin-left: .8rem;
+}
+.index-countdown i{
+	border:.1rem solid #aaa;
+	font-style: normal;
+	font-size: 1.2rem;
+	margin:0 .3rem;
+	padding:0 .3rem;
+}
+.session{
+	color:#222;
+	font-size: 1.4rem;
+	position: absolute;
+	right:1.5rem;
+	top:0;
+}
+/*buy End*/
+/*特价 Begin*/
+.menu-ad img{
+	display: block;
+	height: auto;
+	width:100%;
+}
+/*特价 End*/
+/*明星单品 Begin*/
+.floor-title{
+	color:#666;
+	display: block;
+	font-size:1.4rem;
+	font-weight: 400;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	width: 100%;
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+}
+.floor-title em{
+	color:#ccc;
+	font-style: normal;
+}
+.star-plist{
+	background: #fff;
+	border-bottom: .1rem solid #eaeaea;
+	overflow: hidden;
+}
+.star-plist li{
+	border-right: .1rem solid #f1f1f1;
+	padding:1.5rem 0 .7rem;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+.star-plist li a, .top-level ul li a, .plist .star-plist li span{
+	display: block;
+}
+.star-plist .star-tips{
+	border:.1rem solid #e1e1e1;
+	border-radius: 2.0rem;
+	display: inline-block;
+	margin:0 2.0rem;
+	overflow: hidden;
+	padding: 0.3rem .9rem .3rem .4rem;
+	vertical-align: center;
+}
+.star-plist .star-tips img{
+	float: left;
+	height: 1.7rem;
+	overflow: hidden;
+	width: 1.7rem;
+}
+.star-plist .star-tips em{
+	color:#222;
+	float: left;
+	font-style: normal;
+	font-size: 1.3rem;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	margin-left: .5rem;
+}
+.star-plist .pimg{
+	display: block;
+	margin:.7rem 1.0rem 0;
+	position: relative;
+	text-align: center;
+}
+.star-plist .pimg img{
+	height: 15.0rem;
+	margin:0 auto;
+	overflow: hidden;
+	width: 15.0rem;
+}
+.star-plist .start-title{
+	color:#555;
+	display: block;
+	font-size: 1.3rem;
+	height: 1.6rem;
+	line-height: .7rem .8rem 0;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.start-price{
+	position: relative;
+	color: #f55;
+	display: block;
+	font-size: 1.4rem;
+	margin:.5rem .8rem 0;
+	text-align: center;
+}
+.pdot{
+	font-size:1.1rem;
+}
+.star-plist li:nth-child(2){
+	border-right: none;
+}
+.flexBox{
+	display: flex;/*flex 布局*/
+}
+.original-price{
+	color:#aaa;
+	font-size: 1.0rem;
+	font-style: normal;
+	text-decoration: line-through;
+}
+.floor-mark{
+	background: #f66;
+	border-radius: .1rem;
+	color:#fff;
+	display: inline-block;
+	font-size:1.0rem;
+	margin-left: .5rem;
+	padding-top: .1rem;
+	padding-right: .2rem;
+	padding-left: .2rem;
+	text-indent: 0;
+	vertical-align: middle;
+}
+/*明星单品 End */
+/*新品上市 Begin*/
+.top-level{
+	clear:both;
+	width: 100%;
+}
+.top-level ul li a{
+	background:#fff;
+	margin-bottom: 1.0rem;
+}
+.top-level ul li span{
+	display: block;
+	position: relative;
+}
+.top-level ul li img{
+	height: auto;
+	width: 100%;
+}
+.top-level ul li a:last-child{
+	margin-bottom: 0;
+}
+.price-r{
+	background: rgba(0,0,0,0.4);
+	bottom:2.0rem;
+	color:#fff;
+	display: block;
+	font-size:1.4rem;
+	font-style: normal;
+	height: 2.7rem;
+	line-height: 2.7rem;
+	position: absolute;
+	right:0;
+	text-align: center;
+	width: 5.4rem;
+}
+.ds-1{
+	color:#222;
+	display: block;
+	font-size:1.4rem;
+	margin-top: 1.2rem;
+}
+.ds-1, .ds-2{
+	padding:0 1.5rem;
+}
+.ds-2{
+	color:#999;
+	font-size: 1.2rem;
+	height: 1.5rem;
+	margin-top: .6rem;
+	overflow: hidden;
+	padding-bottom: 1.4rem;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/*新品上市 End*/
+/*手机 Begin*/
+.floor-bigimg{
+	clear: both;
+}
+.floor-bigimg img{
+	display: block;
+	height: auto;
+	width: 100%;
+ 
+}
+.star-plist li a, .top-level ul li a, .plist .star-plist li span {
+    display: block;
+}
+.star-plist .pimg{
+	margin:.7rem 1.0rem 0;
+	position: relative;
+	text-align: center;
+}
+.star-plist .pimg img{
+	height: 15.0rem;
+	margin:0 auto;
+	overflow: hidden;
+	width:15.0rem;
+}
+.star-plist .start-title {
+    color: #555;
+    display: block;
+    font-size: 1.3rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    margin: .7rem .8rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.product-norms {
+    color: #999;
+    font-size: 1.2rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    margin: .4rem .8rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*手机 end*/
+/*更多 begin*/
+.morepro {
+    background: #f4f4f4;
+    border-bottom: .1rem solid #ccc;
+    color: #666;
+    display: block;
+    font-size: 1.2rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    text-align: center;
+}
+.mod-help{
+	background: #fff;
+	color:#5c5c5c;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	text-align: center;
+}
+.mod-help .help-contents{
+	padding:1.3rem 0;
+}
+.mod-help .contents-item {
+    border-right: solid .1rem #d6d6d6;
+    color: #666;
+    font-size: 1.1rem;
+}
+.mod-help .help-contents i {
+    border: .1rem solid #aaa;
+    border-radius: 5.0rem;
+    color: #666;
+    display: block;
+    font-size: 1.2rem;
+    height: 3.1rem;
+    line-height: 3.1rem;
+    margin: 0 auto;
+    width: 3.1rem;
+}
+.mod-help .help-contents em {
+    display: block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-top: .7rem;
+}
+.flexitem{
+	display: block;
+	-webkit-box-flex:1;
+}
+.flexbox{
+	-webkit-box-orient:horizontal;
+	display: -webkit-box;
+}
+.mod-help .help-number, .mod-help .help-number a {
+    color: #999;
+}
+.mod-help .help-number {
+    border-top: solid .1rem #d6d6d6;
+    font-size: 1.0rem;
+    line-height: 3.7rem;
+}
+.help-number a{
+	color:#999;
+}
+.copyright{
+	font-size: 1.0rem;
+	line-height: 1.0rem;
+	padding-bottom: 1.0rem;
+}
+.menu-box {
+    background: #fff;
+    border-top: .1rem solid #d0d0d0;
+    border-bottom: .1rem solid #d0d0d0;
+    bottom: 0;
+    height: 5.3rem;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+}
+.meun-box ul li{
+	text-align: center;
+}
+.flex{
+	-webkit-box-flex:1;
+	flex:1;
+}
+.menu-box .on .layer-home{
+	background: url(../image/foot1.png);
+	background-size:5.0rem 3.3rem;
+}
+.menu-box ul li em{
+	display: block;
+	height: 3.3rem;
+	margin:0 auto;
+	width: 5.0rem;
+}
+.menu-box .on span{
+	color:#19a243;
+}
+.menu-box ul li span{
+	display: block;
+	font-size: 1.0rem;
+	text-align: center;
+}
+.menu-box .layer-category{
+	background: url(../image/foot2.png);
+	background-size:5.0rem 3.3rem;
+}
+.menu-box .layer-cart{
+	background: url(../image/foot3.png);
+	background-size:5.0rem 3.3rem;
+}
+.menu-box .layer-center{
+	background: url(../image/foot4.png);
+	background-size:5.0rem 3.3rem;
+}
+/*更多 End*/
