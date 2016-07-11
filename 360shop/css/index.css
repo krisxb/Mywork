@@ -83,18 +83,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background: #fff;
 	position: relative;
 }
-.clearfix:after{
-	content: "";
-	display: block;
-	height: 0px;
-	line-height: 0px;
-	clear: both;
+
+.clearfix{
+	zoom:1;
 }
 .mod-slider .slider-box{
 	margin:0 auto;
 	max-width:64.0rem;
 	overflow: hidden;
-	/*position: relative;*/
+	position: relative;
 }
 ol,ul,li{
 	list-style: none;
@@ -107,7 +104,7 @@ a{
 	height:auto;
 }
 .mod-slider .slider-list{
-	/*position: absolute;*/
+	position: absolute;
 	top:0;
 }
 .mod-slider li{
@@ -117,6 +114,26 @@ a{
 	display: block;
 }
 .mod-slider li img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.swiper-container{
+	background: #fff;
+	position: relative;
+}
+.clearfix{
+	zoom:1;
+}
+.swiper-container .swiper-wrapper{
+	position:relative;
+	margin:0 auto;
+	max-width: 64.0rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide{
+	display: block;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
 	display: block;
 	height: auto;
 	width: 100%;
